@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/personal/personal",
     "pages/index/index",
     "pages/list/list",
     "pages/movie/movie",
     "pages/detail/detail"
+    
   ],
   "window": {
     "navigationBarBackgroundColor": "#489B81",
@@ -26,6 +28,12 @@
         "text": "电影",
         "iconPath": "/images/tab/dianying.png",
         "selectedIconPath": "/images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人",
+        "iconPath": "/images/tab/personal.png",
+        "selectedIconPath": "/images/tab/personal_hl.png"
       }
     ]
   },
